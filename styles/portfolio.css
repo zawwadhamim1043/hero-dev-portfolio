@@ -47,7 +47,7 @@ header{
     background-color: #FFF8F3;
     padding-top: 50px;
     background: url("../images/developer.png"), url("../images/header_bg.png"),#FFF8F3;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat; 
 }
 nav{
@@ -208,4 +208,30 @@ footer .footer-container{
     margin: 0 auto;
     display: flex;
     gap: 116px;
+}
+.footer-container .social{
+    max-width: 562px;
+}
+
+.footer-container h2{
+    color:#181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-container p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-container a{
+    margin-right: 24px;
+}
+.footer-container form input[type="text"],textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
 }
